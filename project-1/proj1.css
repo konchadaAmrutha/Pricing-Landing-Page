@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+.wrapping-price{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #223645;
+    overflow:auto;
+}
+.head-text{
+    font-size:40px;
+    font-weight: 700;
+    color:#fff;
+    margin-top: 60px;
+}
+
+.col2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-box{
+
+    padding:30px;
+    width: 25%;
+    float: left;
+    border: 1px solid white;
+    margin-right: 25px;
+
+    
+}
+
+.pricing-box span{
+    font-size: 18px;
+    color:#fff;
+    font-weight:500 ;
+    margin-bottom: 15px;
+}
+.pricing-box h2{
+    color: #ff6036;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(100,117,137,.3);
+}
+.pricing-box ul{
+   list-style: none;
+    padding-top: 15px;
+ 
+}
+.pricing-box ul li{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.pricing-box ul li i{
+    color:#ff6036;
+    font-size: 16px;
+    margin-right: 10px;
+   
+}
+.pricing-box a{
+    text-decoration: none;
+}
+.custom-btn{
+    padding: 10px 25px;
+    display:inline-block;
+    color:#fff;
+    border: 2px solid #ff6036;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .3s;
+}
+.custom-btn:hover{
+    background-color: #ff6036;
+    color:#fff;
+    text-decoration:none;
+}
+.second{
+    background-color: white;
+}
+.second span{
+    color: black;
+}
+.second ul li{
+    color: black;
+}
+.second .custom-btn{
+    color: black;
+}
+.pricing-box:hover{
+    box-shadow: 0 0 20px white,0 0 40px white;
+    margin-top: 10px;
+}
+
